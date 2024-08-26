@@ -1,0 +1,327 @@
+collateral_asset_info:
+  asset_id: '0x02ce625e94458d39dd0bf3b45a843544dd4a14b8169045a3a3d15aa564b936c5' # USDT
+  resolution: '0xf4240'
+data_availability_mode: 0
+fee_position_info:
+  position_id: '256078'
+  public_key: '0x2b0f5770078b51652f37fd491247b9f522c8da1c8a14f387c55f9fca2f8c0b0'
+is_risk_by_balance_only: false
+max_funding_rate: '1120'
+orders_tree_height: 64
+positions_tree_height: 64
+synthetic_assets_info:
+  '0x425443322d31300000000000000000': # BTC2-10
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x425443555344000000000000000000005374437277' # BTCUSD StCrw
+      - '0x4254435553440000000000000000000053746f726b' # BTCUSD Stork
+      - '0x425443555344000000000000000000004465787472' # BTCUSD Dextr
+      - '0x4254435553440000000000000000000053744b6169' # BTCUSD StKai
+      - '0x425443555344540000000000000000005374437277' # BTCUSDT StCrw
+      - '0x4254435553445400000000000000000053746b6169' # BTCUSDT Stkai
+      - '0x4254435553445400000000000000000053746f726b' # BTCUSDT Stork
+      - '0x425443555344540000000000000000006465787472' # BTCUSDT dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x2540be400' # 1e10
+    risk_factor:
+      segments:
+        - risk: '107374183' # maintenanceMarginRate=0.025000000, maxLeverage=20x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '143165576' # maintenanceMarginRate=0.033333333, maxLeverage=15x
+          upper_bound: 10737418240000000000000 # positionValue=2500000
+        - risk: '178956973' # maintenanceMarginRate=0.041666667, maxLeverage=12x
+          upper_bound: 17179869184000000000000 # positionValue=4000000
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 25769803776000000000000 # positionValue=6000000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 34359738368000000000000 # positionValue=8000000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 42949672960000000000000 # positionValue=10000000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4554482d3900000000000000000000': # ETH-9
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x455448555344000000000000000000005374437277' # ETHUSD StCrw
+      - '0x4554485553440000000000000000000053746f726b' # ETHUSD Stork
+      - '0x455448555344000000000000000000004465787472' # ETHUSD Dextr
+      - '0x4554485553440000000000000000000053744b6169' # ETHUSD StKai
+      - '0x455448555344540000000000000000005374437277' # ETHUSDT StCrw
+      - '0x4554485553445400000000000000000053746b6169' # ETHUSDT Stkai
+      - '0x4554485553445400000000000000000053746f726b' # ETHUSDT Stork
+      - '0x455448555344540000000000000000006465787472' # ETHUSDT dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x3b9aca00' # 1e9
+    risk_factor:
+      segments:
+        - risk: '107374183' # maintenanceMarginRate=0.025000000, maxLeverage=20x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '143165576' # maintenanceMarginRate=0.033333333, maxLeverage=15x
+          upper_bound: 10737418240000000000000 # positionValue=2500000
+        - risk: '178956973' # maintenanceMarginRate=0.041666667, maxLeverage=12x
+          upper_bound: 17179869184000000000000 # positionValue=4000000
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 25769803776000000000000 # positionValue=6000000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 34359738368000000000000 # positionValue=8000000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 42949672960000000000000 # positionValue=10000000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x534f4c2d3800000000000000000000': # SOL-8
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x534f4c555344000000000000000000005374437277' # SOLUSD StCrw
+      - '0x534f4c5553440000000000000000000053746f726b' # SOLUSD Stork
+      - '0x534f4c555344000000000000000000004465787472' # SOLUSD Dextr
+      - '0x534f4c5553440000000000000000000053744b6169' # SOLUSD StKai
+      - '0x534f4c555344540000000000000000005374437277' # SOLUSDT StCrw
+      - '0x534f4c5553445400000000000000000053746b6169' # SOLUSDT Stkai
+      - '0x534f4c5553445400000000000000000053746f726b' # SOLUSDT Stork
+      - '0x534f4c555344540000000000000000006465787472' # SOLUSDT dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x5f5e100' # 1e8
+    risk_factor:
+      segments:
+        - risk: '107374183' # maintenanceMarginRate=0.025000000, maxLeverage=20x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '143165576' # maintenanceMarginRate=0.033333333, maxLeverage=15x
+          upper_bound: 10737418240000000000000 # positionValue=2500000
+        - risk: '178956973' # maintenanceMarginRate=0.041666667, maxLeverage=12x
+          upper_bound: 17179869184000000000000 # positionValue=4000000
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 25769803776000000000000 # positionValue=6000000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 34359738368000000000000 # positionValue=8000000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 42949672960000000000000 # positionValue=10000000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x5345492d3500000000000000000000': # SEI-5
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x534549555344000000000000000000005374437277' # SEIUSD StCrw
+      - '0x5345495553440000000000000000000053746f726b' # SEIUSD Stork
+      - '0x534549555344000000000000000000004465787472' # SEIUSD Dextr
+      - '0x5345495553440000000000000000000053744b6169' # SEIUSD StKai
+      - '0x534549555344540000000000000000005374437277' # SEIUSDT StCrw
+      - '0x5345495553445400000000000000000053746b6169' # SEIUSDT Stkai
+      - '0x5345495553445400000000000000000053746f726b' # SEIUSDT Stork
+      - '0x534549555344540000000000000000006465787472' # SEIUSDT dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x186a0' # 1e5
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4152422d3600000000000000000000': # ARB-6
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x415242555344000000000000000000005374437277' # ARBUSD StCrw
+      - '0x4152425553440000000000000000000053746f726b' # ARBUSD Stork
+      - '0x415242555344000000000000000000004465787472' # ARBUSD Dextr
+      - '0x4152425553440000000000000000000053744b6169' # ARBUSD StKai
+      - '0x4152425553440000000000000000000053746b6169' # ARBUSD Stkai
+      - '0x415242555344000000000000000000006465787472' # ARBUSD dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0xf4240' # 1e6
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4f502d360000000000000000000000': # OP-6
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x4f5055534400000000000000000000005374437277' # OPUSD StCrw
+      - '0x4f50555344000000000000000000000053746f726b' # OPUSD Stork
+      - '0x4f5055534400000000000000000000004465787472' # OPUSD Dextr
+      - '0x4f50555344000000000000000000000053744b6169' # OPUSD StKai
+      - '0x4f50555344000000000000000000000053746b6169' # OPUSD Stkai
+      - '0x4f5055534400000000000000000000006465787472' # OPUSD dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0xf4240' # 1e6
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x444f47452d35000000000000000000': # DOGE-5
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x444f47455553440000000000000000005374437277' # DOGEUSD StCrw
+      - '0x444f474555534400000000000000000053746f726b' # DOGEUSD Stork
+      - '0x444f47455553440000000000000000004465787472' # DOGEUSD Dextr
+      - '0x444f474555534400000000000000000053744b6169' # DOGEUSD StKai
+      - '0x444f474555534400000000000000000053746b6169' # DOGEUSD Stkai
+      - '0x444f47455553440000000000000000006465787472' # DOGEUSD dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x186a0' # 1e5
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x574c442d3600000000000000000000': # WLD-6
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x574c44555344000000000000000000005374437277' # WLDUSD StCrw
+      - '0x574c445553440000000000000000000053746f726b' # WLDUSD Stork
+      - '0x574c44555344000000000000000000004465787472' # WLDUSD Dextr
+      - '0x574c445553440000000000000000000053744b6169' # WLDUSD StKai
+      - '0x574c445553440000000000000000000053746b6169' # WLDUSD Stkai
+      - '0x574c44555344000000000000000000006465787472' # WLDUSD dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0xf4240' # 1e6
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x524e44522d37000000000000000000': # RNDR-7
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x524e44525553440000000000000000005374437277' # RNDRUSD StCrw
+      - '0x524e445255534400000000000000000053746f726b' # RNDRUSD Stork
+      - '0x524e44525553440000000000000000004465787472' # RNDRUSD Dextr
+      - '0x524e445255534400000000000000000053744b6169' # RNDRUSD StKai
+      - '0x524e44525553445400000000000000005374437277' # RNDRUSDT StCrw
+      - '0x524e445255534454000000000000000053746b6169' # RNDRUSDT Stkai
+      - '0x524e445255534454000000000000000053746f726b' # RNDRUSDT Stork
+      - '0x524e44525553445400000000000000006465787472' # RNDRUSDT dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x989680' # 1e7
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x424c55522d35000000000000000000': # BLUR-5
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x424c55525553440000000000000000005374437277' # BLURUSD StCrw
+      - '0x424c555255534400000000000000000053746f726b' # BLURUSD Stork
+      - '0x424c55525553440000000000000000004465787472' # BLURUSD Dextr
+      - '0x424c555255534400000000000000000053744b6169' # BLURUSD StKai
+      - '0x424c555255534400000000000000000053746b6169' # BLURUSD Stkai
+      - '0x424c55525553440000000000000000006465787472' # BLURUSD dextr
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225' # StCrw
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'  # Stork
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e' # Dextr
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0' # StKai
+      - '0x1f191d23b8825dcc3dba839b6a7155ea07ad0b42af76394097786aca0d9975c' # Stkai
+      - '0x6ee80350406f9e753797c3f0e1303a63ea2ae1f1adb86340e52722f41b31b64' # dextr
+    resolution: '0x186a0' # 1e5
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+timestamp_validation_config:
+  funding_validity_period: 604800
+  price_validity_period: 31536000

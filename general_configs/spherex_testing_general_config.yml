@@ -1,0 +1,253 @@
+collateral_asset_info:
+  asset_id: '0x033bda5c923bae4e84825b74762d5482889b9512465fbffc50d1ae4b82e345c3'
+  resolution: '0xf4240'
+data_availability_mode: 0
+fee_position_info:
+  position_id: '123456'
+  public_key: '0x1e240'
+is_risk_by_balance_only: false
+max_funding_rate: '1120'
+orders_tree_height: 64
+positions_tree_height: 64
+synthetic_assets_info:
+  '0x425443322d31300000000000000000': # BTC2-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x425443555344000000000000000000004d616b6572' # BTCUSD Maker
+    oracle_price_signers:
+      - '0x1f05db386793366f0cd49e32106b0e36f5d3193bee7c2636725fb8da4ef88f4'
+    resolution: '0x2540be400' # 1e10
+    risk_factor:
+      segments:
+        - risk: '107374183' # maintenanceMarginRate=0.025000000, maxLeverage=20x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '143165576' # maintenanceMarginRate=0.033333333, maxLeverage=15x
+          upper_bound: 10737418240000000000000 # positionValue=2500000
+        - risk: '178956973' # maintenanceMarginRate=0.041666667, maxLeverage=12x
+          upper_bound: 17179869184000000000000 # positionValue=4000000
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 25769803776000000000000 # positionValue=6000000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 34359738368000000000000 # positionValue=8000000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 42949672960000000000000 # positionValue=10000000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4554482d3900000000000000000000': # ETH-9
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x455448555344000000000000000000004d616b6572' # ETHUSD Maker
+    oracle_price_signers:
+      - '0x348232f61062dd6a19ee43ebb7df565bef5fce883385959d046b7fcd0f7e694'
+    resolution: '0x3b9aca00' # 1e9
+    risk_factor:
+      segments:
+        - risk: '107374183' # maintenanceMarginRate=0.025000000, maxLeverage=20x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '143165576' # maintenanceMarginRate=0.033333333, maxLeverage=15x
+          upper_bound: 10737418240000000000000 # positionValue=2500000
+        - risk: '178956973' # maintenanceMarginRate=0.041666667, maxLeverage=12x
+          upper_bound: 17179869184000000000000 # positionValue=4000000
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 25769803776000000000000 # positionValue=6000000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 34359738368000000000000 # positionValue=8000000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 42949672960000000000000 # positionValue=10000000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x534f4c2d3800000000000000000000': # SOL-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x534f4c555344000000000000000000004d616b6572' # SOLUSD Maker
+    oracle_price_signers:
+      - '0x6a1bea79ae825a2d1bab751f8c921d999349b45f2a65a4cbb76b0c2a8514c59'
+    resolution: '0x5f5e100' # 1e8
+    risk_factor:
+      segments:
+        - risk: '107374183' # maintenanceMarginRate=0.025000000, maxLeverage=20x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '143165576' # maintenanceMarginRate=0.033333333, maxLeverage=15x
+          upper_bound: 10737418240000000000000 # positionValue=2500000
+        - risk: '178956973' # maintenanceMarginRate=0.041666667, maxLeverage=12x
+          upper_bound: 17179869184000000000000 # positionValue=4000000
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 25769803776000000000000 # positionValue=6000000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 34359738368000000000000 # positionValue=8000000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 42949672960000000000000 # positionValue=10000000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x5345492d3500000000000000000000': # SEI-5
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x534549555344000000000000000000004d616b6572' # SEIUSD Maker
+    oracle_price_signers:
+      - '0x313d5a6e045ba4ebe32de33d5b26a0ef2f9f6ae1a721b4108e901c7ef042ad5'
+    resolution: '0x186a0' # 1e5
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4152422d3600000000000000000000': # ARB-6
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x415242555344000000000000000000004d616b6572' # ARBUSD Maker
+    oracle_price_signers:
+      - '0x5b00a684e796b278b51caa191eb19a0dd5488501a90eb39d0ab8488818d94b3'
+    resolution: '0xf4240' # 1e6
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4f502d360000000000000000000000': # OP-6
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4f5055534400000000000000000000004d616b6572' # OPUSD Maker
+    oracle_price_signers:
+      - '0x18287757c3a93b2fd5fcee9c015458e5879de6b503c19a1f4b723279960de45'
+    resolution: '0xf4240' # 1e6
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x444f47452d35000000000000000000': # DOGE-5
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x444f47455553440000000000000000004d616b6572' # DOGEUSD Maker
+    oracle_price_signers:
+      - '0x2a6f6c69c6fd8fd958fa00ef42288c67b449df8bd40ac042829e16e59f0910a'
+    resolution: '0x186a0' # 1e5
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x574c442d3600000000000000000000': # WLD-6
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x574c44555344000000000000000000004d616b6572' # WLDUSD Maker
+    oracle_price_signers:
+      - '0x3b366e9e92ae6f9a98b285b531f1d4c98a16aa67e48c011ded837acd45b9398'
+    resolution: '0xf4240' # 1e6
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x524e44522d37000000000000000000': # RNDR-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x524e44525553440000000000000000004d616b6572' # RNDRUSD Maker
+    oracle_price_signers:
+      - '0x3b00c9f3f17ee861aa92675918c1ee0711562c6806ed11468fd12010d52a745'
+    resolution: '0x989680' # 1e7
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x424c55522d35000000000000000000': # BLUR-5
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x424c55525553440000000000000000004d616b6572' # BLURUSD Maker
+    oracle_price_signers:
+      - '0x51ff7a001dff2a3be21c62678cf1066109922639c25a74960905a55680ad28d'
+    resolution: '0x186a0' # 1e5
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 429496729600000000000 # positionValue=100000
+        - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
+          upper_bound: 1073741824000000000000 # positionValue=250000
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
+          upper_bound: 2576980377600000000000 # positionValue=600000
+        - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
+          upper_bound: 4294967296000000000000 # positionValue=1000000
+        - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4254432d3130000000000000000000':
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x425443555344000000000000000000004d616b6572' # BTCUSD Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+      - '0x1f05db386793366f0cd49e32106b0e36f5d3193bee7c2636725fb8da4ef88f4'
+    resolution: '0x2540be400' # 1e10
+    risk_factor:
+      segments:
+        - risk: '214748365' # maintenanceMarginRate=0.050000000, maxLeverage=10x
+          upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
+  '0x4554482d3800000000000000000000':
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x455448555344000000000000000000004d616b6572'
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+      - '0x36f361f294d4a3b773d91e51d21bf75eeb1caf82cebd66e1bf3e846f98d090f'
+    resolution: '0x5f5e100'
+    risk_factor:
+      segments:
+        - risk: '322122548'
+          upper_bound: 340282366920938463463374607431768211455
+  '0x4c494e4b2d37000000000000000000':
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b5553440000000000000000004d616b6572'
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+      - '0x47eebf34a3347294a12afc08f13fa1b60466f2be12bede5b7d6227f01c95081'
+    resolution: '0x989680'
+    risk_factor:
+      segments:
+        - risk: '429496730'
+          upper_bound: 340282366920938463463374607431768211455
+timestamp_validation_config:
+  funding_validity_period: 604800
+  price_validity_period: 31536000
