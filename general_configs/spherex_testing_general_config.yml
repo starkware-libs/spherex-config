@@ -29,7 +29,7 @@ synthetic_assets_info:
           upper_bound: 25769803776000000000000 # positionValue=6000000
         - risk: '268435456' # maintenanceMarginRate=0.062500000, maxLeverage=8x
           upper_bound: 34359738368000000000000 # positionValue=8000000
-        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x          
+        - risk: '357913940' # maintenanceMarginRate=0.083333333, maxLeverage=6x
           upper_bound: 42949672960000000000000 # positionValue=10000000
         - risk: '429496730' # maintenanceMarginRate=0.100000000, maxLeverage=5x
           upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
@@ -253,7 +253,7 @@ synthetic_assets_info:
     oracle_price_signed_asset_ids:
       - '0x444f47535553440000000000000000004d616b6572' # DOGSUSD Maker
     oracle_price_signers:
-      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0x348232f61062dd6a19ee43ebb7df565bef5fce883385959d046b7fcd0f7e694'
     resolution: '0x186a0' # 1e5
     risk_factor:
       segments:
@@ -272,7 +272,7 @@ synthetic_assets_info:
     oracle_price_signed_asset_ids:
       - '0x484d53545255534400000000000000004d616b6572' # HMSTRUSD Maker
     oracle_price_signers:
-      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0x348232f61062dd6a19ee43ebb7df565bef5fce883385959d046b7fcd0f7e694'
     resolution: '0x186a0' # 1e5
     risk_factor:
       segments:
@@ -291,7 +291,7 @@ synthetic_assets_info:
     oracle_price_signed_asset_ids:
       - '0x424e42555344000000000000000000004d616b6572' # BNBUSD Maker
     oracle_price_signers:
-      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0x348232f61062dd6a19ee43ebb7df565bef5fce883385959d046b7fcd0f7e694'
     resolution: '0x5f5e100' # 1e8
     risk_factor:
       segments:
@@ -310,7 +310,7 @@ synthetic_assets_info:
     oracle_price_signed_asset_ids:
       - '0x424954434f494e5553440000000000004d616b6572' # BITCOINUSD Maker
     oracle_price_signers:
-      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0x348232f61062dd6a19ee43ebb7df565bef5fce883385959d046b7fcd0f7e694'
     resolution: '0x186a0' # 1e5
     risk_factor:
       segments:
