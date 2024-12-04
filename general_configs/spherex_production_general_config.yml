@@ -419,5 +419,5 @@ synthetic_assets_info:
         - risk: '536870912' # maintenanceMarginRate=0.125000000, maxLeverage=4x
           upper_bound: 340282366920938463463374607431768211455 # positionValue=+∞
 timestamp_validation_config:
-  funding_validity_period: 604800
-  price_validity_period: 31536000
+  funding_validity_period: 86400
+  price_validity_period: 86400
